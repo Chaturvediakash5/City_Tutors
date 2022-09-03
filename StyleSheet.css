@@ -1,0 +1,255 @@
+﻿body {
+overflow-x:hidden;
+}
+.top {
+min-height:50px;
+background-color:#f8f8f8;
+color:#5d5d5d;
+}
+
+.Menu {
+background-color:#ffffff;
+min-height:60px;
+padding:0px;
+outline:none;
+margin-right:0px;
+}
+.logo {
+padding-left:70px;
+}
+#bs-example-navbar-collapse-1 ul li a {
+     text-decoration:none;
+    color:#5d5d5d;
+}
+#bs-example-navbar-collapse-1 ul li a:hover {
+   background-color:transparent;
+   color:#fba822;
+}
+
+#s1 {
+
+height:200px;background-color:#fba822; 
+text-align:center;
+font-size:30px;
+padding:10px;
+font-family:Calibri;
+
+}
+#sp2 {
+
+height:200px;
+
+background-color:#45a0de; 
+
+text-align:center;
+font-size:30px;
+padding:10px;
+font-family:Calibri;
+
+}
+#sp3 {
+
+height:200px;
+background-color:#fba822; 
+
+text-align:center;
+font-size:30px;
+padding:10px;
+font-family:Calibri;
+
+}
+.About {
+padding-top:15px;
+padding-left:50px;
+padding-right:50px;
+min-height:400px;
+margin-top:100px;font-size:15px;
+background-color:#f8f8f8;
+}
+#testimonial4{
+  overflow: hidden;
+  min-height: 350px;
+  position: relative;
+  color:black;
+}
+
+
+
+.msg{
+min-height:100px;
+color:#929292;
+}
+#famenu li {
+    display:inline;
+    padding:10px;
+}
+        body {
+  line-height: 1.7;
+  color: #666666;
+  font-size: 14px;
+  font-family: 'Open Sans', sans-serif;
+  background-color: #fff;
+}
+a {
+  color: #808080;
+  text-decoration: none;
+}
+a:hover,
+a:focus {
+  color: #595959;
+  text-decoration: none;
+}
+a img {
+  border: none;
+}
+img {
+  max-width: 100%;
+}
+ul,
+ol {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+ul ul,
+ol ul {
+  margin-left: 15px;
+}
+ul.list {
+  list-style: outside none none;
+  margin-top: 13px;
+  padding-left: 0;
+}
+ul.list li {
+  margin: 5px 0;
+  font-weight: 500;
+  padding-left: 15px;
+  position: relative;
+}
+ul.list li:before {
+  border: none;
+  color: #a9a9a9;
+  content: "\f111";
+  display: inline-block;
+  font-family: fontawesome;
+  font-size: 9px;
+  margin-right: 10px;
+  padding: 0;
+  left: 0;
+  position: absolute;
+  top: 1px;
+}
+ul.list li:hover:before {
+  background: none;
+  border-color: transparent;
+}
+ul.list li a {
+  text-decoration: none;
+  -webkit-transition: all 300ms ease-in;
+  -o-transition: all 300ms ease-in;
+  transition: all 300ms ease-in;
+}
+.search-form-wrapper.round form label::before {
+  color: #c0c0c0;
+}
+.widget .list-border li {
+  border-bottom: 1px dashed #d3d3d3;
+}
+.widget.dark .list-border li {
+  border-bottom: 1px dashed #404040;
+}
+.widget ul li {
+  margin-bottom: 5px;
+  padding-bottom: 5px;
+}
+.widget ul.list li,
+.widget .post {
+  margin-bottom: 8px;
+  padding-bottom: 8px;
+}
+.widget ul.list li::before {
+  display: none;
+}
+.widget.dark ul.list li::before {
+  display: none;
+}
+
+  
+.testimonial4_indicators .carousel-indicators::-webkit-scrollbar{
+  height: 3px;
+}
+.testimonial4_indicators .carousel-indicators::-webkit-scrollbar-thumb{
+  background: #eeeeee;
+  -webkit-border-radius: 0;
+  border-radius: 0;
+}
+
+.testimonial4_slide{
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  width: 70%;
+  margin: auto;
+  padding: 20px;
+  position: relative;
+  text-align: center;  
+}
+.testimonial4_slide img {
+  top: 30px;
+  left: 0;
+  right: 0;
+  width: 100px;
+  height: 100px;
+  margin: auto;
+  display: block;
+  color: #333333;
+  font-size: 18px;
+  line-height: 46px;
+  text-align: center;
+  position: relative;
+}
+
+.testimonial4_slide p {
+  color: #333333;
+  font-size: 16px;
+  margin: 20px 0 20px 0;
+  padding-top:30px;
+}
+
+.testimonial4_slide h4 {
+  color: #333333;
+  font-size: 24px;
+  font-weight: bold;
+   
+}
+              .icon {
+         
+            color:black;
+            margin:2%;
+            font-size:large;
+            cursor:pointer;
+        }
+        .Linkfooter {
+            margin-top:5%;
+            color:black;
+        }
+         .Linkfooter a {
+            color:black;
+        }
+              #BtnE
+{
+height:170px;width:30px;background:orange;color:white;text-align:center;
+position:absolute;
+right:5px;
+top:200px;cursor:pointer;position:fixed;z-index:1;
+border-radius:10px 0px 0px 10px;
+}
+                .footer {
+        
+        margin-top:100px;
+        }
+           #BtnGen {
+            background:orange; color:white;font-size:20px;cursor:pointer;
+            height:40px;
+        }

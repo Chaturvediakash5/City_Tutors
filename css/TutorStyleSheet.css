@@ -1,0 +1,38 @@
+﻿/*...................Menu Style................*/
+body {
+    overflow-x:hidden;
+}
+.icon-bar {
+   
+    background-color:#f6f6f6; /* Dark-grey background */
+    /*margin-left:-20px;*/
+    min-height:600px;
+    color:black;
+}
+
+.icon-bar a {
+    display: block; /* Make the links appear below each other instead of side-by-side */
+    text-align: center; /* Center-align text */
+    padding: 16px; /* Add some padding */
+    transition: all 0.3s ease; /* Add transition for hover effects */
+    color:black; /* White text color */
+    font-size: 14px; /* Increased font-size */
+    text-decoration:none;
+}
+
+.icon-bar a:hover {
+    background-color: #000; /* Add a hover color */
+    color:white;
+}
+
+.active {
+    background-color: gray /* Add an active/current color */;
+    color:white;
+}
+.menuicon 
+{
+     height:200px;
+     background-image:url('../images/myimg1.png');
+     background-size:100% 100%;
+     font-size:20px;
+}

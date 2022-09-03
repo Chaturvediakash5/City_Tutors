@@ -1,0 +1,189 @@
+﻿<%@ Master Language="C#" AutoEventWireup="true" CodeFile="General.master.cs" Inherits="General" %>
+
+<!DOCTYPE html>
+
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head runat="server">
+    <title>City Tutors</title>
+    <link rel="icon" href="images/LogoLast.png" type="image/png" />
+       <link href="css/bootstrap-theme.min.css" rel="stylesheet" />
+    <link href="css/bootstrap.min.css" rel="stylesheet" />
+    <link href="css/font-awesome.min.css" rel="stylesheet" />
+    <link href="css/hover.css" rel="stylesheet" />
+  <link href="StyleSheet.css" rel="stylesheet" />
+     <script src="JS/jquery.js"></script>
+    <script src="JS/bootstrap.min.js"></script>
+    <asp:ContentPlaceHolder id="head" runat="server">
+    </asp:ContentPlaceHolder>
+    <style>
+        #menu {
+            background:transparent;
+            box-shadow:none;
+            border:none;
+            padding-top:25px;
+
+            
+        }
+        .header.a {
+        position:fixed;
+        top:0px;
+        width:100%;
+        z-index:1; 
+        background-color:white;
+
+        }
+        #BtnGen {
+            background:orange; color:white;font-size:20px;cursor:pointer;
+            height:40px;
+        }
+    </style>
+  <script>
+        $(window).scroll(function () {
+            if ($(this).scrollTop() > 50) {
+                $(".header").addClass('a');
+            }
+            else {
+                $(".header").removeClass('a');
+            }
+        })
+     
+    </script>
+</head>
+<body>
+    <form id="form1" runat="server">
+       <div class="container-fluid">
+           <div class="row top">
+               <div class="col-sm-1"></div>
+ <div class="col-sm-5" style="font-size: 14px; padding-top: 7px;"><span class="fa fa-envelope-o " style="border: 1px solid #fba822;height:30px;width:30px; padding: 2%"></span><span>&nbsp;&nbsp;chaturvediakash5@gmail.com&nbsp;&nbsp;|&nbsp;&nbsp;</span><span class="fa fa-phone" style="border: 1px solid #fba822;height:30px;width:30px; padding: 2%"></span><span>&nbsp;&nbsp;+91 + 8400493702</span></div>
+               <div class="col-sm-3" ></div>
+               <div class="col-sm-3"style="font-size:16px;padding-top:10px;">
+                   <a href=" https://www.facebook.com/login/"> <span class="fa fa-facebook" style="border:1px solid #fba822;padding:2%;height:30px;width:30px;text-align:center;" ></span></a>
+                  <a href=" https://www.twitter.com/login/"> <span class="fa fa-twitter" style="border:1px solid #fba822;padding:2%;height:30px;width:30px;"></span>&nbsp;&nbsp;</a>
+                   <a href=" https://www.instagram.com/login/"> <span class="fa fa-linkedin" style="border:1px solid #fba822;padding:2%;height:30px;width:30px;"></span>&nbsp;&nbsp;</a>
+                  <a href=" https://www.google.com/login/"> <span class="fa fa-google-plus" style="border:1px solid #fba822;padding:2%;height:30px;width:30px;"></span>&nbsp;&nbsp;</a>
+                   <a href=" https://www.Youtube.com/login/"> <span class="fa fa-youtube" style="border:1px solid #fba822;padding:2%;height:30px;width:30px;"></span></a>
+               </div>
+           </div>
+<div class="row header">
+    <div class="col-sm-5 logo"><img src="images/LogoLast.png" /></div>
+    <div class="col-sm-7">
+    <nav class="navbar navbar-default Menu" id="menu">
+  <div class="container-fluid">
+    <!-- Brand and toggle get grouped for better mobile display -->
+    <div class="navbar-header">
+      <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1" aria-expanded="false">
+        <span class="sr-only">Toggle navigation</span>
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>
+      </button>
+    
+    </div>
+
+    <!-- Collect the nav links, forms, and other content for toggling -->
+    <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+      <ul class="nav navbar-nav">
+           <li><a href="Index.aspx" class="hvr-underline-from-left">Home</a></li>
+        <li><a href="AboutUs.aspx" class="hvr-underline-from-left">About Us</a></li>
+        <li><a href="Registration.aspx" class="hvr-underline-from-left">Registration</a></li>
+           <li><a href="StudentReview.aspx" class="hvr-underline-from-left">Student Review</a></li>
+        <li><a href="ContactUs.aspx" class="hvr-underline-from-left">Contact Us</a></li>
+          <li><a href="MyArticle.aspx" class="hvr-underline-from-left">Article</a></li>
+           <li ><a href="Login.aspx" class="hvr-underline-from-left">Login</a></li>
+         
+          
+      </ul>
+    </div><!-- /.navbar-collapse -->
+  </div><!-- /.container-fluid -->
+</nav>
+</div>
+       </div>
+        </div>
+        <div class="row">
+
+        </div>
+    <div>
+        <asp:ContentPlaceHolder id="CPHMain" runat="server">
+        
+        </asp:ContentPlaceHolder>
+ <div class="row">
+     <%-- Start Footer --%>
+                  <div class="row">
+             <div class="col-sm-12 footer">
+                    <div class="row">
+                    <div class="col-sm-12" style="background-color:#45a0de;min-height:70px;">
+                    <%--    *************************--%>
+                        <div class="col-sm-6" style="margin-top:-20px;background-image:url('../images/image2.png');background-size:100% 100%;min-height:70px;text-align:center;padding:10px;">
+                          
+                           <%-- <span style="font-size:17px;color:white;margin-top:2px;">SUBSCRIBE</span><br/>
+                            <span style="font-size:18px;color:white;">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;TO OUR NEWSLETTER</span>--%>
+                        </div>
+                        <div class="col-sm-6"></div>
+                        <%--    *************************--%>
+                    </div>
+                    </div>
+                 <div class="row">
+                    <div class="col-sm-12" style="background-color:#45a0de;min-height:200px;">
+                        <div class="col-sm-1"></div>
+                          <div class="col-sm-10">
+                              <div class="col-sm-12">
+                                  <div class="col-sm-3" style="background-color:#45a0de;min-height:200px;margin-top:5%">
+                                      <span class="glyphicon glyphicon-leaf" style="font-size:30px;color:orange;"></span>
+               <span style="font-size:22px;color:black">MY FOO<span style="color:orange">TER</span></span>
+               <br/><br/>
+               <p style="color:black;text-align:justify">This sample is a brisk activity to represent how the default, static and settled to beat navbar work.</p>
+               <!--Icons-->
+                        <a href="www.Facebook.com"><span class="fa fa-facebook-square icon"></span></a>
+                        <a href="www.Twitter.com"> <span class="fa fa-twitter-square icon"></span></a>
+                        
+                         <a href="www.Google.com"><span class="fa fa-google-plus-square icon" ></span></a>
+                                  </div>
+                                   <div class="col-sm-3" style="background-color:#45a0de;min-height:200px;color:black">
+                                        <h2 style="font-size:20px;color:black;text-align:left;margin-top:27%">GET IN <span style="color:orange">TOUCH</span></h2><br />
+                                        <span class="fa fa-map-marker" aria-hidden="true" style="text-align:justify;">&nbsp;&nbsp;Khati Baba Jhansi</span><br/>
+            <span class="fa fa-phone" aria-hidden="true" style="text-align:justify">&nbsp;&nbsp; 8400493702</span><br/>          
+            <span class="fa fa-envelope-o" aria-hidden="true" style="text-align:justify">&nbsp;&nbsp; info@yourdomain.com</span><br/>
+            <span class="fa fa-globe" aria-hidden="true" style="text-align:justify">&nbsp;&nbsp; www.yourdomain.com</span>
+                                   </div>
+                                   <div class="col-sm-3 Linkfooter" style="background-color:#45a0de;min-height:240px;">
+                                            <span class="fa fa-link" aria-hidden="true" style="font-size:25px;color:orange;margin-top:5%"> </span> <span style="font-size:22px;color:black">NAVIGAT</span><span style="color:orange">ION</span>
+                  <br/>
+                  <span class="fa fa-angle-double-right" ></span> &nbsp;&nbsp; <a class="FooterTop2Links" href="Index.aspx">Home</a><br/>
+                  <span class="fa fa-angle-double-right" ></span> &nbsp;&nbsp; <a class="FooterTop2Links" href="AboutUs.aspx">About Us</a><br/>
+                 <span class="fa fa-angle-double-right" ></span> &nbsp;&nbsp;<a class="FooterTop2Links" href="StudentReview.aspx">Review </a><br/>
+                 <span class="fa fa-angle-double-right" ></span> &nbsp;&nbsp;  <a class="FooterTop2Links" href="Registration.aspx">Registration </a><br/>
+                  <span class="fa fa-angle-double-right" ></span> &nbsp;&nbsp; <a class="FooterTop2Links" href="ContactUs.aspx">Contact Us</a>
+
+                                   </div>
+                                   <div class="col-sm-3 Linkfooter" style="background-color:#45a0de;min-height:200px;">
+                                     <span class="fa fa-link" aria-hidden="true" style="font-size:25px;color:orange;margin-top:5%"> </span> <span style="font-size:22px;color:black"> TUTORIALS</span><span style="color:orange;font-size:22px">LINKS</span>
+                  <br/>
+
+                  <span class="fa fa-angle-double-right" ></span> &nbsp<a class="FooterTop2Links" href="WWW.at6.TecktaskManager.in">WWW.at6.TecktaskManager.in</a><br/>
+                  <span class="fa fa-angle-double-right" ></span> &nbsp;&nbsp; <a class="FooterTop2Links" href="WWW.W3School.in">WWW.W3School.in</a><br/>
+                 <span class="fa fa-angle-double-right" ></span> &nbsp;&nbsp;<a class="FooterTop2Links" href="WWW.Wikipidea.in">WWW.Wikipidea.in </a><br/>
+                 <span class="fa fa-angle-double-right" ></span> &nbsp;&nbsp;  <a class="FooterTop2Links" href="WWW.BoothSnipped.in ">WWW.BoothSnipped.in </a><br/>
+                  <span class="fa fa-angle-double-right" ></span> &nbsp;&nbsp; <a class="FooterTop2Links" href="WWW.JavaT.in">WWW.JavaT.in</a>
+                                   </div>
+                              </div>
+                          </div>
+                          <div class="col-sm-1"></div>
+                    </div>
+     </div>
+                </div>
+                </div>
+     <%-- End Footer --%>
+     <div class="row  text-left" style="min-height: 50px;color: white; padding-top: 16px; font-size: 15px;background-color:#101511">
+                    <div class="col-sm-8 text-center">
+                            Copyright © City tutors Jhansi
+                </div>
+          <div class="col-sm-4">
+                         
+                </div>
+         </div>
+     </div>
+    </div>
+         
+    </form>
+</body>
+</html>

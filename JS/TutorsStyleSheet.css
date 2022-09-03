@@ -1,0 +1,27 @@
+﻿body {
+}
+.top {
+min-height:50px;
+background-color:#f8f8f8;
+color:#5d5d5d;
+}
+
+.Menu {
+background-color:#ffffff;
+min-height:60px;
+padding:0px;
+outline:none;
+margin-right:0px;
+}
+.logo {
+padding-left:70px;
+min-height:70px;
+}
+#bs-example-navbar-collapse-1 ul li a {
+     text-decoration:none;
+    color:#5d5d5d;
+}
+#bs-example-navbar-collapse-1 ul li a:hover {
+   background-color:transparent;
+   color:#fba822;
+}
